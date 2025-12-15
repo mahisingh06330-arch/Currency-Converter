@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    position: relative;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url("image.png");
+    background-size: cover;
+    opacity: 0.5;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    background-color: black;
+    color:white;
+    width:100vw;
+    height:5rem;
+}
+
+#nav1 {
+    
+}
+.myLink{
+   
+}
+.link{
+    color:white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
